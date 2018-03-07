@@ -1,0 +1,11 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+
+.giphy-image {
+	border: 10px solid hotpink;
+	width: 150px;
+
+}
