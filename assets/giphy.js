@@ -1,11 +1,11 @@
 var hedgehogs = ["Happy", "Cute", "Surprised"];
 
 $(document).on("click", ".hoggybuttons", function() {
-  var hog = $(this).attr("hog");
+  var hog = $(this).attr("data-name");
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
   hog + " hedgehog" + "&api_key=SMTb3tSlY0U2YO3pw0CTrzbXep49Q8EX&limit=10";
-
- console.log(queryURL);
+  console.log(hog);
+  console.log(queryURL);
 
   $.ajax({
     url: queryURL,
