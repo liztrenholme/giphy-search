@@ -35,7 +35,8 @@ form {
 	opacity: .8;
 }
 
-button {
+.hoggybuttons {
 	background-color: white;
-
+	width: 10%;
+	box-shadow: 2px 2px 1px grey;
 }
