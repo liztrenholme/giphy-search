@@ -1,11 +1,41 @@
 body {
-	background-color: black;
-	color: white;
+	background-image: url("images/wall.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	color: black;
 }
 
 
 .giphy-image {
-	border: 10px solid hotpink;
-	width: 150px;
+	border: 5px solid white;
+	margin: 10px;
+	box-shadow: 5px 5px 5px grey;
+
+}
+
+h3 {
+	background-color: white;
+	opacity: .8;
+	font-weight: bold;
+}
+
+p {
+	color: black;
+	background-color: white;
+	opacity: .8;
+	box-shadow: 2px 2px 1px grey;
+	font-size: 80%;
+	width: 30%;
+	margin: 10px 0 -20px 5px;
+}
+
+form {
+	margin: 20px;
+	background-color: hotpink;
+	opacity: .8;
+}
+
+button {
+	background-color: white;
 
 }
