@@ -1,4 +1,5 @@
 body {
+	font-family: 'Poppins', sans-serif;
 	background-image: url("images/wall.jpg");
 	background-repeat: repeat;
 	background-attachment: fixed;
@@ -7,6 +8,7 @@ body {
 
 
 .giphy-image {
+	align-content: center;
 	border: 5px solid white;
 	margin: 10px;
 	box-shadow: 5px 5px 5px grey;
@@ -14,13 +16,24 @@ body {
 }
 
 h3 {
+	font-family: 'Special Elite', cursive;
+	font-size: 250%;
 	background-color: white;
 	opacity: .8;
 	font-weight: bold;
 }
 
+.instructions {
+	font-size: 120%;
+	width: 80%;
+	margin: 20px 0 0 0;
+	border: 3px solid hotpink;
+
+}
+
 p {
 	color: black;
+	font-family: 'Poppins', sans-serif;
 	background-color: white;
 	opacity: .8;
 	box-shadow: 2px 2px 1px grey;
