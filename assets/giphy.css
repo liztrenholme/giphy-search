@@ -31,12 +31,24 @@ p {
 
 form {
 	margin: 20px;
+	padding: 2px;
 	background-color: hotpink;
 	opacity: .8;
 }
 
+#search-hog {
+	margin: 0 5px 0 0;
+}
+
+#add-hog {
+	background-color: white;
+	margin: 5px 5px 0 0;
+	box-shadow: 2px 2px 1px grey;
+}
+
 .hoggybuttons {
 	background-color: white;
-	width: 10%;
+	margin: 2px;
+	width: auto;
 	box-shadow: 2px 2px 1px grey;
 }
