@@ -60,4 +60,5 @@ $("#add-hog").on("click", function(event) {
   var hog = $("#search-hogs").val().trim();
   hedgehogs.push(hog);
   makeButtons();
+  $("#search-hogs").val("");
 });
