@@ -58,7 +58,9 @@ function makeButtons() {
 $("#add-hog").on("click", function(event) {
   event.preventDefault();
   var hog = $("#search-hogs").val().trim();
+  if (hog !== "") {
   hedgehogs.push(hog);
   makeButtons();
+  }
   $("#search-hogs").val("");
 });
